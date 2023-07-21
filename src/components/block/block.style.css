@@ -1,0 +1,19 @@
+.block{
+    width: 200px;
+    /* border: 1px solid red; */
+    padding: 20px;
+    display: flex;
+    gap: 10px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.block>.icon>.icon-svg{
+    height: 100%;
+    width: 50px;
+}
+
+.price{
+    font-size: large;
+}

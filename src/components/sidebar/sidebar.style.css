@@ -1,0 +1,53 @@
+.sidebar-link-button{
+    color: white;
+    display: flex;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-top: 2px;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 400;
+}
+
+.sidebar-link{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 23px;
+    font-size: 1.1rem;
+    font-weight: 400;
+    padding-bottom: 8px;
+    gap: 5px;
+    /* border-top: 2px solid black; */
+    border-bottom: 2px solid black;
+}
+
+.sidebar-container{
+    width: 20%;
+    background-color: #262626;
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+
+}
+
+.add-button{
+    padding: 1rem;
+    background-color: #E5E5E5;
+    width: 70%;
+    margin: auto auto;
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    font-weight: 600;
+    border-radius: 5px;
+}
+
+.sidebar-link-item ul{
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}

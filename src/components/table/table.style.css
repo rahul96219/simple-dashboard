@@ -1,0 +1,25 @@
+.table{
+    margin-top: 20px;
+   
+}
+
+table{
+    width: 100%;
+}
+
+table>thead>tr th{
+    text-align: left;
+    padding: 10px;
+    background-color: #D4D4D4;
+}
+
+table>tbody>tr td{
+    text-align: left;
+    padding: 5px;
+}
+
+.action{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
